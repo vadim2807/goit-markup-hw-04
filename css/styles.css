@@ -368,10 +368,6 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-
-  transition-property: background-color; /* Анимируем цвет */
-  transition-duration: 0.3s; /* 0.3 секунды плавности */
-  transition-timing-function: ease; /* Мягкое ускорение */
 }
 
 .sec-three-icon a {
@@ -382,6 +378,7 @@ main {
   border-radius: 50%;
   display: flex;
   align-items: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .sec-three-icon svg {
@@ -532,10 +529,6 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-
-  transition-property: background-color; /* Анимируем цвет */
-  transition-duration: 0.3s; /* 0.3 секунды плавности */
-  transition-timing-function: ease; /* Мягкое ускорение */
 }
 
 .ftr-icon svg {
@@ -551,6 +544,7 @@ main {
   border-radius: 50%;
   display: flex;
   align-items: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .ftr-icon a:hover {
