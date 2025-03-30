@@ -472,6 +472,12 @@ main {
   margin: auto;
 }
 
+.ftr-container {
+  display: flex;
+  flex-direction: row;
+  gap: 120px;
+}
+
 .ftr-link {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -493,4 +499,42 @@ main {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   max-width: 264px;
+}
+
+.ftr-head {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+}
+
+.ftr-icons {
+  display: flex;
+  gap: 16px;
+  margin-top: 16px;
+  flex-direction: row;
+}
+
+.ftr-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #4d5ae5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transition-property: background-color; /* Анимируем цвет */
+  transition-duration: 0.3s; /* 0.3 секунды плавности */
+  transition-timing-function: ease; /* Мягкое ускорение */
+}
+
+.ftr-icon svg {
+  width: 16px;
+  height: 16px;
+}
+
+.ftr-icon:hover {
+  background-color: #31d0aa;
 }
