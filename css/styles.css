@@ -359,6 +359,7 @@ main {
   gap: 24px;
   margin: 8px 16px 0;
   flex-direction: row;
+  justify-content: center;
 }
 
 .sec-three-icon {
@@ -373,6 +374,10 @@ main {
   transition-property: background-color; /* Анимируем цвет */
   transition-duration: 0.3s; /* 0.3 секунды плавности */
   transition-timing-function: ease; /* Мягкое ускорение */
+}
+
+.sec-three-icon a {
+  justify-content: center;
 }
 
 .sec-three-icon svg {
