@@ -63,7 +63,7 @@ img {
 
 main {
   background-color: #fff;
-  max-width: 1440px;
+  /*max-width: 1440px;*/
   margin: auto;
 }
 
@@ -498,6 +498,7 @@ main {
   text-transform: uppercase;
   color: #4d5ae5;
   display: inline-block;
+  margin-bottom: 16px;
 }
 
 .ftr-link-wrap {
